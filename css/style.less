@@ -1,0 +1,51 @@
+
+.header{
+    height: 80px;
+    background-color: #76c7c0; 
+    background-image: url(../img/bg-line.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    .logo-img{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        a{
+            display: block;
+        }
+    }
+    .header-menu{
+        height: 80px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+        ul{
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            .last-menu-link{
+                margin-right: 0;
+            }
+            li{
+                
+                margin-right: 25px;
+                a{
+                    border-radius: 5px;
+                    padding: 10px 15px;
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-family: "Open Sans - Semibold";
+                    font-size: 13px;
+                    font-weight: 400;
+                    text-transform: uppercase;  
+                    transition: 100ms linear;
+                    &:hover{
+                        box-shadow: 0px 3px 0px 0px #538b86;
+                        background-color: #64a29e;
+                    }
+                }
+            }
+        }
+    }
+}
