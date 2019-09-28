@@ -1,4 +1,7 @@
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .header{
     height: 80px;
     background-color: #76c7c0; 
@@ -24,25 +27,73 @@
             display: flex;
             padding: 0;
             margin: 0;
+            .portfolio-link{
+                position: relative;
+                &:hover .dropdown{
+                    display: block;
+                }
+                a{
+                    display: inline;
+                    margin: 0;
+                    i{
+                        display: inline-block;
+                        padding: 0;
+                        margin-right: 8px;
+                        transition: 200ms linear;
+                    }
+                    &:hover{
+                        box-shadow: 0px 3px 0px 0px #e8645a;
+                        background-color: #e2534b;
+                    }
+                    
+                    &:hover i{
+                        transform: rotate(90deg);
+                    }
+                }
+            }
             .last-menu-link{
                 margin-right: 0;
+                a{
+                    &:hover{
+                        background-color: transparent;
+                        box-shadow: none;
+                    }
+                }
+                
             }
             li{
-                
                 margin-right: 25px;
                 a{
                     border-radius: 5px;
                     padding: 10px 15px;
                     text-decoration: none;
                     color: #ffffff;
-                    font-family: "Open Sans - Semibold";
                     font-size: 13px;
-                    font-weight: 400;
                     text-transform: uppercase;  
                     transition: 100ms linear;
                     &:hover{
                         box-shadow: 0px 3px 0px 0px #538b86;
                         background-color: #64a29e;
+                    }
+                }
+            }
+            .dropdown{
+                background-color: #e2534b;
+                position: absolute;
+                display: none;
+                width: 250px;
+                height: 116px;
+                border-radius: 5px;
+                top: 40px;
+                li{
+                    color: #ffffff;
+                    font-size: 13px;
+                    
+                    margin: 5px;
+                    a{
+                        border-radius: 5px;
+                        padding: 10px 15px;
+                        text-decoration: none;
                     }
                 }
             }
