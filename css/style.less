@@ -29,6 +29,50 @@ body{
             margin: 0;
             .portfolio-link{
                 position: relative;
+                .drpdwncont{
+                    width: 100%;
+                    height: 100%;
+                    background-color: transparent;
+                    cursor: pointer;
+                    position: absolute;
+                    left: 0;
+                    top: 30px;
+                    .dropdown{
+                        top: 0px;
+                        position: relative;
+                        z-index: 1;
+                        li{
+                            margin: 15px 0 25px 5px;
+                            &:first-child{
+                                padding-top: 15px;
+                            }
+                            a{
+                                padding: 10px 15px 10px 10px;
+                                background-color: #e5645d;
+                                &:hover{
+                                    box-shadow: 0px 3px 0px 0px #538b86;
+                                    background-color: #64a29e;
+                                }
+                                i{
+                                    display: inline;
+                                }
+                            }
+                        }
+                        &:before{
+                            display: block;
+                            content: "";
+                            width: 13px;
+                            height: 7px;
+                            top: -4px;
+                            left: 10px;
+                            position: absolute;
+                            z-index: 0;
+                            background-image: url(../img/ar.png);
+
+                        }
+                    }
+
+                }
                 &:hover .dropdown{
                     display: block;
                 }
@@ -81,15 +125,15 @@ body{
                 background-color: #e2534b;
                 position: absolute;
                 display: none;
-                width: 250px;
-                height: 116px;
+                width: 230px;
+                height: 140px;
                 border-radius: 5px;
-                top: 40px;
+                top: 10px;
                 li{
                     color: #ffffff;
                     font-size: 13px;
-                    
-                    margin: 5px;
+                    margin: 10px;
+                    text-transform: none;
                     a{
                         border-radius: 5px;
                         padding: 10px 15px;
@@ -99,4 +143,31 @@ body{
             }
         }
     }
+}
+.slider{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    .arrow{
+        width: 50px;
+        height: 57px;
+        background-color: #e8645a;
+        border-radius: 0px 5px 5px 0;
+        position: absolute;
+        left: 0;
+        top: 45%;
+        box-shadow: 0px 3px 0px 0px #e2534b;
+        
+    }
+    .right{
+        border-radius: 5px 0px 0px 5px;
+        left: 97.5%;
+        position: absolute;
+    }
+    
+    img{
+        height: 500px;
+        width: 100%;
+    }
+
 }

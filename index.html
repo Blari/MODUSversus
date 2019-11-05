@@ -1,52 +1,230 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>MODUSversus</title>
+</head>
 
-    <title>ModusVersus</title>
-  </head>
-  <body>
-    <div class="container-fluid header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 logo-img">
-                    <a href="index.html"><img src="img/logo.png" alt="main-logo"></a>
+<body>
+    <div class="header">
+        <div class="line"></div>
+        <div class="conteiner">
+            <div class="logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="#" class="first">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                    <li>
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <div class="slider">
+
+        <div class="slider_box">
+            <div class="arrow left"><span class="glyphicon glyphicon-backward" aria-hidden="true"></span></div>
+            <div class="arrow right"><span class="glyphicon glyphicon-forward" aria-hidden="true"></span></div>
+            <h2>VESTIBULUM</h2>
+            <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+        </div>
+
+    </div>
+    <div class="slider_btn">
+        <div class="sbtn"></div>
+        <div class="sbtn"></div>
+        <div class="sbtn"></div>
+    </div>
+    <div class="top_services">
+        <div class="top_service_conteiner">
+            <div class="top_serv_text">
+                <p class="top_serv_title">Some of our top services</p>
+                <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum,
+                    libero lectus mattis orci, ut commodo. </p>
+            </div>
+            <div class="top_serv_btn">
+                <button>VIEW MORE</button>
+            </div>
+        </div>
+    </div>
+    <div class="card_box">
+        <div class="card_box_cont">
+            <div class="card">
+                <i class="fas fa-thumbs-up like_icon"></i>
+                <p class="ctitle">SUSPENDISSE</p>
+                <p class="ctext"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat
+                    vitae at, vehicula
+                    ut nunc. </p>
+                <button>read more</button>
+            </div>
+            <div class="card">
+                <i class="fas fa-key"></i>
+                <p class="ctitle">MAECENAS</p>
+                <p class="ctext"> Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum
+                    condimentum, libero lectus mattis orci, ut commodo. </p>
+                <button>read more</button>
+            </div>
+            <div class="card">
+                <i class="fas fa-flag"></i>
+                <p class="ctitle">SUSPENDISSE</p>
+                <p class="ctext"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat
+                    vitae at, vehicula
+                    ut nunc. </p>
+                <button>read more</button>
+            </div>
+            <div class="card">
+                <i class="fas fa-flask"></i>
+                <p class="ctitle">HABITASSE</p>
+                <p class="ctext"> Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.
+                </p>
+                <button>read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="why_box">
+        <div class="why_box_cont">
+            <h2>WHY MODUS VERSUS?</h2>
+            <p>Capacitance cascading integer reflective interface data development high bus cache dithering transponder.
+            </p>
+            <img src="img/why_img.png" class="first_img" alt="">
+            <img src="img/why_img_main.png" alt="">
+            <img src="img/why_img.png" class="last_img" alt="">
+        </div>
+    </div>
+    <div class="info_box">
+        <div class="info_cont">
+            <div class="info_left">
+                <h3>Why Choose Us ?</h3>
+                <ul>
+                    <li>Quisque at massa ipsum </li>
+                    <li>Maecenas a lorem augue, egestas </li>
+                    <li>Cras vitae felis at lacus eleifend </li>
+                    <li>Etiam auctor diam pellentesque </li>
+                    <li>Nulla ac massa at dolor </li>
+                    <li>Condimentum eleifend vitae vitae </li>
+                </ul>
+            </div>
+
+            <div class="info_center">
+                <p>Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <span
+                        class="vehicula">vehicula mattis</span>. Nulla ac massa at dolor condimentum eleifend vitae
+                    vitae urna.</p>
+                <img src="img/graph.png" alt="">
+            </div>
+
+            <div class="info_right">
+                <h3>What Client’s Say ?</h3>
+                <div class="info_right_text_cont">
+                    <p class="info_right_text">Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor
+                        diam pellentesque lectus vehicula mattis. <span>Nulla ac massa at dolor condimentum</span>
                 </div>
+                <p class="jhon">Jhon Doe</p>
+            </div>
+        </div>
+    </div>
+    <div class="happy_clients">
+        <div class="happy_cont">
+            <h3>Our Happy Clients</h3>
+            <div class="happy_line"></div>
+            <div class="happy_arrows">
+                <button><i class="fas fa-chevron-left"></i></button>
+                <button><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="jquery">
+        <div class="jquery_cont">
+            <div class="jbox"></div>
+            <div class="jbox"></div>
+            <div class="jbox"></div>
+            <div class="jbox"></div>
+            <div class="jbox"></div>
+            <div class="jbox"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_cont">
+            <div class="fmodus">
+                <div class="logo foot"><a href="#"><img src="img/logo.png" alt=""></a></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                    pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .
+                    <br><br>
+                    Phone: <span>182 2569 5896</span>
+                    <br><br>
+                    e-mail: <span>info@modu.versus</span>
+                </p>
+            </div>
+            <div class="fcompany">
+                <h3>Company</h3>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i><a href="about.html">About</a> </li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">FAQ</a> </li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">Contact</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">Terms</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">Privacy</a> </li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">Testimonials</a> </li>
+                </ul>
+            </div>
+            <div class="fcommunity">
+                <h3>Community</h3>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">Blog</a> </li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">Forum</a> </li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">Support</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+            <div class="fblog">
+                <h3>from the <span>BLOG</span></h3>
+                <div class="blog_post">
+                    <div class="ipost"></div>
+                    <div class="blog_text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <span>26 May, 2013</span>
+                    </div>
 
-                <div class="col-md-9 header-menu">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                        <li class="portfolio-link"><a href="#"><i class="fas fa-chevron-right"></i>PORTFOLIO</a>
-                            <ul class="dropdown">
-                                <li><a href="#">Portfolio 2 column page</a></li>
-                                <li><a href="#">Portfolio 2 column page</a></li>
-                                <li><a href="#">Portfolio 2 column page</a></li>
-                            </ul>
-                            </li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">FEATURES</a></li>
-                        <li><a href="#">CONTACTS</a></li>
-                        <li class="last-menu-link"><a href="#"><i class="fas fa-search"></i></a></li>
-                    </ul>
+                </div>
+                <div class="blog_post">
+                    <div class="ipost"></div>
+                    <div class="blog_text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <span>26 May, 2013</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="last_footer">
+        <div class="last_footer_content">
+            <p>2013 ModusVersus</p>
+            <div class="ss_icons">
+                <div class="ss_icon">
+                       <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                       <a href="#"> <i class="fab fa-google-plus-g"></i></a>
+                       <a href="#"> <i class="fab fa-twitter"></i></a>
+                       <a href="#"> <i class="fas fa-rss"></i></a>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

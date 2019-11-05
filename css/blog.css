@@ -1,0 +1,271 @@
+.h4-title {
+  color: #7f8c8c;
+  font-family: "Open Sans - Extrabold";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+.link-style {
+  color: #ffffff;
+  font-family: "Open Sans - Semibold";
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn-shodow {
+  box-shadow: 0px 3px 0px 0px #528b86;
+}
+#header {
+  height: 80px;
+  background-color: #76c7c0;
+  background-image: url("../img/bg-line.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+#header .container {
+  height: 100%;
+}
+#header .row {
+  height: 100%;
+}
+#header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#header ul li {
+  display: inline-block;
+  margin: 0 45px 0 0;
+}
+#header ul li:last-child {
+  margin-right: 0;
+}
+#header ul li a {
+  color: #ffffff;
+  font-family: "Open Sans - Semibold";
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#header ul li .active {
+  padding: 10px 20px;
+  background-color: #62a29e;
+  border-radius: 6px;
+  box-shadow: 0px 3px 0px 0px #528b86;
+}
+#header .header-menu {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: flex-end;
+  height: 100%;
+}
+#breadcrumb {
+  height: 80px;
+  background-color: #ececec;
+  margin-bottom: 100px;
+}
+#breadcrumb .container {
+  position: relative;
+  height: 100%;
+}
+#breadcrumb .container .arrow {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  width: 24px;
+  height: 12px;
+  background-image: url("../img/Path.png");
+  z-index: 1;
+}
+#breadcrumb .container .row {
+  height: 100%;
+}
+#breadcrumb .container .row .col-md-1 {
+  display: flex;
+  align-items: center;
+}
+#breadcrumb .container .row .col-md-1 p {
+  color: #7f8c8c;
+  font-family: "Open Sans - Semibold";
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+#breadcrumb .container .row .col-md-2 {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+#breadcrumb .container .row .col-md-2 span,
+#breadcrumb .container .row .col-md-2 a {
+  color: #7f8c8c;
+  font-family: "Open Sans";
+  font-size: 12px;
+  text-decoration: none;
+}
+#main-part .container .row .col-md-9 .title {
+  display: flex;
+  justify-content: space-start;
+  margin-bottom: 40px;
+}
+#main-part .container .row .col-md-9 .title img {
+  margin-right: 30px;
+  width: 70px;
+  height: 70px;
+}
+#main-part .container .row .col-md-9 .title .title-text {
+  display: flex;
+  flex-direction: column;
+}
+#main-part .container .row .col-md-9 .title .title-text p {
+  color: #7f8c8c;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+#main-part .container .row .col-md-9 .title .title-text h3 {
+  color: #76c7c0;
+  font-family: "Open Sans - Semibold";
+  font-size: 24px;
+}
+#main-part .container .row .col-md-9 .title .title-text a {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #e2534b;
+}
+#main-part .container .row .col-md-9 .title .title-text i {
+  color: #62b9b0;
+}
+#main-part .container .row .col-md-9 .page-slideshow {
+  position: relative;
+  border-bottom: 3px #e5e6e6 solid;
+  margin-bottom: 30px;
+}
+#main-part .container .row .col-md-9 .page-slideshow .sl-arrow-l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 50px;
+  height: 57px;
+  background-color: #e8645a;
+  box-shadow: 0px 3px 0px 0px #e2534b;
+  border-radius: 0 6px 6px 0;
+}
+#main-part .container .row .col-md-9 .page-slideshow .sl-arrow-l i {
+  color: #ffffff;
+  font-size: 36px;
+}
+#main-part .container .row .col-md-9 .page-slideshow .sl-arrow-r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 50px;
+  height: 57px;
+  background-color: #e8645a;
+  box-shadow: 0px 3px 0px 0px #e2534b;
+  border-radius: 6px 0 0 6px;
+}
+#main-part .container .row .col-md-9 .page-slideshow .sl-arrow-r i {
+  color: #ffffff;
+  font-size: 36px;
+}
+#main-part .container .row .col-md-9 .btn-case {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+#main-part .container .row .col-md-9 .btn-case .sl-btn {
+  width: 75px;
+  height: 5px;
+  background-color: #b0b8b9;
+  margin: 0 5px 30px 0;
+  transition: 200ms linear;
+}
+#main-part .container .row .col-md-9 .btn-case .sl-btn:hover {
+  background-color: #e2534b;
+  cursor: pointer;
+}
+#main-part .container .row .col-md-9 .artical {
+  margin-bottom: 45px;
+}
+#main-part .container .row .col-md-9 .artical p {
+  color: #7f8c8c;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+#main-part .container .row .col-md-9 .artical .ps {
+  position: relative;
+}
+#main-part .container .row .col-md-9 .artical .ps p {
+  margin-left: 100px;
+  color: #7f8c8c;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+#main-part .container .row .col-md-9 .artical .ps p::before {
+  content: "";
+  position: absolute;
+  left: 70px;
+  top: 0;
+  height: 108px;
+  width: 5px;
+  background-color: #7f8c8c;
+}
+#main-part .container .row .col-md-3 h4 {
+  color: #7f8c8c;
+  font-family: "Open Sans - Extrabold";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+#main-part .container .row .col-md-3 ul {
+  padding: 0;
+  margin: 0 0 50px 15px;
+  list-style-type: none;
+}
+#main-part .container .row .col-md-3 ul li {
+  color: #e2534b;
+  font-family: "Open Sans - Semibold";
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#main-part .container .row .col-md-3 ul i {
+  padding-right: 15px;
+  color: #62b9b0;
+}
+#main-part .container .row .col-md-3 .recent .recent-post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px #f3f3f3 solid;
+}
+#main-part .container .row .col-md-3 .recent .recent-post i {
+  margin-top: 5px;
+  color: #76c7c0;
+}
+#main-part .container .row .col-md-3 .recent .recent-post .recent-post-text {
+  margin-left: 13px;
+}
+#main-part .container .row .col-md-3 .recent .recent-post .recent-post-text a {
+  color: #e2534b;
+  font-family: "Open Sans - Semibold";
+  font-size: 14px;
+}
+#main-part .container .row .col-md-3 .recent .recent-post .recent-post-text p {
+  color: #7f8c8c;
+  font-family: "Open Sans";
+  font-size: 12px;
+}
